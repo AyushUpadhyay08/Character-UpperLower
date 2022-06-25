@@ -1,0 +1,15 @@
+#Write a program to check whether a entered character is lowercase ( a to z ) or uppercase ( A to Z ).
+import java.util.*;
+class J
+{
+    public static void main(String args[])
+    {
+        Scanner sc = new Scanner(System.in);
+        char c;
+        c = sc.next().charAt(0);
+        if(Character.isUpperCase(c))
+            System.out.print("UpperCase Character");
+        else if(Character.isLowerCase(c))
+            System.out.print("LowerCase Character");       
+    }
+}
